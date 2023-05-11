@@ -1,0 +1,87 @@
+body{
+    background-image:url("./asset/background.png");
+    background-repeat: no-repeat;
+    backgorund-position:center;
+    background-size:cover;
+    height:100vh;
+    overflow:hidden;
+    max-width:90%;
+    margin:0 auto;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    max-width:90%;
+    margin:0 auto;
+    color:#ffffff;
+    font-size:25
+}
+
+.list{
+    display:flex;
+    font-size:25px;
+}
+
+.header-1{
+    display:flex;
+}
+
+.container{
+    max-width:95%;
+    margin:0 auto;
+}
+
+.list-item{
+    margin-right:25px;
+}
+.header-2{
+    display:flex;
+    align-items:center;
+}
+.header-2 h5{
+    margin-left:10px;
+}
+
+.heading{
+    max-width:50%;
+    font-size:70px;
+    color:#ffffff;
+}
+
+button{
+    height:60px;
+    width:200px;
+    border-radius:40px;
+    padding:20px;
+    font-size:20px;
+    border:1px solid #ffffff;
+    backgorund-color:transparent;
+}
+
+.black{
+    max-width:20%;
+    background-color:#ffffff;
+    opacity:0.6;
+    margin:0 auto;
+    padding:15px;
+}
+
+.top{
+    margin-top:20px;
+}
+
+
+.img{
+    float:right;
+    max-width:15%;
+    display:flex;
+    flex-direction:column;
+    background-color:#ffffff;
+    opacity:0.7;
+    color:#fffffff;
+    padding:20px;
+}
+.puz{
+    max-width:30%;
+}
